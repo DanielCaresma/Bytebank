@@ -1,9 +1,9 @@
 import { 
     Funcionario 
-} from "./funcionario";
+} from "./funcionario.js";
 
 export class Diretor extends Funcionario {
-    constructor() {
+    constructor(nome, salario, cpf) {
         super(nome, salario, cpf);
         this._bonificacao = 2;
     }
